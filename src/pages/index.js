@@ -8,6 +8,7 @@ import SiteContext from '../context/siteContext'
 
 const IndexPage = () => {
   const siteContext = useContext(SiteContext)
+  console.log('siteContext', siteContext)
 
   return (
     <Layout>
