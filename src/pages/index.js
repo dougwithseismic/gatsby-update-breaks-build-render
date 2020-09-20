@@ -15,6 +15,8 @@ const IndexPage = () => {
       <h1>Hi people</h1>
       <p>Welcome to your new Gatsby site.</p>
       <p>{JSON.stringify(siteContext.urlParams)}</p>
+      <p>Href: {JSON.stringify(siteContext.location.href)}</p>
+      <p>Pathname: {JSON.stringify(siteContext.location.pathname)}</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>

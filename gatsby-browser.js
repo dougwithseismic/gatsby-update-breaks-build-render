@@ -10,7 +10,7 @@ import React from 'react'
 import { Location } from '@reach/router'
 import { SiteProvider } from './src/context/siteContext'
 
-const SecondBlock = () => <div>I'm a second block, causing shit</div>
+const SecondBlock = () => <div>I'm a second block, all is fine. (Replicating my private project structure)</div>
 
 export const wrapRootElement = ({ element }) => {
   // Unless otherwise told, default the locale to English.
