@@ -1,10 +1,10 @@
-import React, { useContext } from "react"
-import { Link } from "gatsby"
+import React, { useContext } from 'react'
+import { Link } from 'gatsby'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-import SiteContext from "../context/siteContext"
+import Layout from '../components/layout'
+import Image from '../components/image'
+import SEO from '../components/seo'
+import SiteContext from '../context/siteContext'
 
 const IndexPage = () => {
   const siteContext = useContext(SiteContext)
